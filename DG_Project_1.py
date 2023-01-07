@@ -1,6 +1,6 @@
 """
 projekt1.py: první projekt do Engeto Online Python Akademie
-author: David Ger,
+author: David Germ
 email: david.germ@kiwi.com
 discord: GermiCZ#2828
 """
