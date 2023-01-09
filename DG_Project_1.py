@@ -76,8 +76,8 @@ else:
 
 print(f"We have {text_counter} texts to be analyzed.")
 print(separator, sep="\n")
-
 text_selected = input(f"Enter a number btw. 1 and {text_counter} to select: ")
+
 if text_selected.isnumeric() is False:
     print("You did not enter the number. Terminating the program...")
     exit()
@@ -89,7 +89,6 @@ else:
     text_words = TEXTS[int(text_selected)-1].split()
     for word in text_words:
         clean_words.append(word.strip(",;:.?!"))
-    # print(clean_words) # smazat
 
 # TEXT ANALYSIS
 
