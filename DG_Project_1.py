@@ -114,7 +114,7 @@ print(f"There are {isnumeric_words} numeric strings.")
 print(f"The sum of all numbers is {sum}.")
 print(separator)
 
-# TEXT OCCURRENCES
+# WORD OCCURRENCES
 
 for word in clean_words:
     if len(word) not in words_len:
@@ -126,6 +126,7 @@ for word in clean_words:
 
 print(f"LEN|" + "OCCURRENCES".center(max(words_len.values())+2) + "|NR.")
 print(separator)
+
 for (key, value) in sorted(words_len.items()):
     adj_key = str(key).rjust(3)
     occurs = value * "*"
